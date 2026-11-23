@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RiusHost · Gestión de alquileres vacacionales en València</title>
+  <meta name="description" content="RiusHost gestiona tu alquiler vacacional en València de principio a fin: publicación en Airbnb y Booking, limpieza, check-in, reservas, precios y mantenimiento." />
+  <link rel="canonical" href="https://riushost.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="RiusHost · En València, tu propiedad, nuestra gestión" />
+  <meta property="og:description" content="Gestión integral de alquileres vacacionales en València." />
+  <meta property="og:url" content="https://riushost.com/" />
+  <meta property="og:image" content="https://riushost.com/assets/hero.jpg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "RiusHost",
+    "url": "https://riushost.com/",
+    "email": "info@riushost.com",
+    "telephone": "+34660239094",
+    "areaServed": "València",
+    "address": { "@type": "PostalAddress", "addressLocality": "València", "addressCountry": "ES" },
+    "description": "Gestión integral de alquileres vacacionales en València."
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar" id="top">
+    <a class="brand" href="#top" aria-label="RiusHost">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M2 6c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0M2 12c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0M2 18c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span>RiusHost</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#servicios" data-i18n="header.services">Servicios</a>
+      <a href="#beneficios" data-i18n="header.benefits">Beneficios</a>
+      <a href="#contacto" data-i18n="header.contact">Contacta con nosotros</a>
+    </nav>
+    <div class="langs" role="group" data-i18n-aria="header.changeLanguage" aria-label="Cambiar idioma">
+      <button data-lang="es" title="Español">ES</button>
+      <button data-lang="val" title="Valencià">VAL</button>
+      <button data-lang="en" title="English">EN</button>
+      <button data-lang="fr" title="Français">FR</button>
+      <button data-lang="pt" title="Português">PT</button>
+      <button data-lang="it" title="Italiano">IT</button>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-controls="nav" aria-expanded="false" aria-label="Abrir menú">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </header>
+
+  <section class="hero">
+    <img class="hero-img" src="assets/hero.jpg" onerror="this.remove()" alt="Vistas panorámicas de Valencia con las Torres de Serrano y el antiguo cauce del río Turia al atardecer" />
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 data-i18n="hero.main">En València, tu propiedad, nuestra gestión</h1>
+      <p data-i18n="hero.sub">Desconecta y relájate mientras nosotros gestionamos tu alquiler vacacional de principio a fin.</p>
+      <a class="btn" href="#contacto" data-i18n="hero.button">Contáctanos</a>
+    </div>
+  </section>
+
+  <main>
+    <section class="section" id="servicios">
+      <div class="wrap">
+        <h2 data-i18n="services.title">Nuestros Servicios</h2>
+        <p class="lead" data-i18n="services.subtitle"></p>
+        <div class="grid grid-3" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="beneficios">
+      <div class="wrap">
+        <h2 data-i18n="benefits.title">¿Por qué RiusHost?</h2>
+        <p class="lead" data-i18n="benefits.subtitle"></p>
+        <div class="grid grid-4" id="benefitsGrid"></div>
+
+        <div class="banner">
+          <h3 data-i18n="benefits.bannerTitle"></h3>
+          <p data-i18n="benefits.bannerSubtitle"></p>
+        </div>
+
+        <h2 class="mt" data-i18n="benefits.pricing.title">Elige tu Modelo de Facturación</h2>
+        <p class="lead" data-i18n="benefits.pricing.subtitle"></p>
+        <div class="grid grid-2">
+          <article class="card price">
+            <h3 data-i18n="benefits.pricing.fixed.title"></h3>
+            <p data-i18n="benefits.pricing.fixed.description"></p>
+          </article>
+          <article class="card price">
+            <h3 data-i18n="benefits.pricing.percentage.title"></h3>
+            <p data-i18n="benefits.pricing.percentage.description"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="wrap">
+        <h2 data-i18n="contact.title">Hablemos de tu Propiedad</h2>
+        <p class="lead" data-i18n="contact.subtitle"></p>
+        <div class="contact">
+          <aside class="card contact-card">
+            <h3 data-i18n="contact.cardTitle"></h3>
+            <p data-i18n="contact.cardSubtitle"></p>
+            <dl>
+              <dt data-i18n="contact.email">Email</dt>
+              <dd><a href="mailto:info@riushost.com">info@riushost.com</a></dd>
+              <dt data-i18n="contact.phone">Teléfono</dt>
+              <dd><a href="tel:+34660239094">+34 660 239 094</a></dd>
+            </dl>
+            <p class="trust" data-i18n="contact.trust"></p>
+          </aside>
+
+          <form class="card form" id="contactForm" novalidate>
+            <label><span data-i18n="contact.form.name"></span>
+              <input name="nombre" type="text" required autocomplete="name" data-i18n-ph="contact.form.namePlaceholder" />
+            </label>
+            <label><span data-i18n="contact.form.email"></span>
+              <input name="email" type="email" required autocomplete="email" data-i18n-ph="contact.form.emailPlaceholder" />
+            </label>
+            <label><span data-i18n="contact.form.phone"></span>
+              <span class="row">
+                <select name="phonePrefix" data-i18n-aria="contact.form.phonePrefix">
+                  <option value="+34">Spain (+34)</option><option value="+33">France (+33)</option>
+                  <option value="+351">Portugal (+351)</option><option value="+39">Italy (+39)</option>
+                  <option value="+44">United Kingdom (+44)</option><option value="+49">Germany (+49)</option>
+                  <option value="+1">United States (+1)</option><option value="+376">Andorra (+376)</option>
+                </select>
+                <input name="phoneNumber" type="tel" required autocomplete="tel-national" data-i18n-ph="contact.form.phonePlaceholder" />
+              </span>
+            </label>
+            <label><span data-i18n="contact.form.location"></span>
+              <select name="location" id="location" required></select>
+            </label>
+            <span class="row two">
+              <label><span data-i18n="contact.form.propertyType"></span>
+                <select name="propertyType" id="propertyType" required></select>
+              </label>
+              <label><span data-i18n="contact.form.rooms"></span>
+                <select name="rooms" required>
+                  <option value="" disabled selected>—</option>
+                  <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6+</option>
+                </select>
+              </label>
+            </span>
+            <label><span data-i18n="contact.form.message"></span>
+              <textarea name="mensaje" rows="4" data-i18n-ph="contact.form.messagePlaceholder"></textarea>
+            </label>
+            <button class="btn" type="submit" data-i18n="contact.form.button">Enviar mensaje</button>
+            <p class="status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <strong>RiusHost</strong>
+      <p data-i18n="footer.subtitle"></p>
+      <p class="small" data-i18n="footer.copyright"></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.4.1/dist/email.min.js"></script>
+  <script src="assets/i18n.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
