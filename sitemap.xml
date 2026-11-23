@@ -1,4 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://riushost.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://riushost.com/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://riushost.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://riushost.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://riushost.com/it/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://riushost.com/de/" />
+  </url>
+  <url>
+    <loc>https://riushost.com/val/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://riushost.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://riushost.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://riushost.com/it/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://riushost.com/de/" />
+  </url>
+  <url>
+    <loc>https://riushost.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://riushost.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://riushost.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://riushost.com/it/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://riushost.com/de/" />
+  </url>
+  <url>
+    <loc>https://riushost.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://riushost.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://riushost.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://riushost.com/it/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://riushost.com/de/" />
+  </url>
+  <url>
+    <loc>https://riushost.com/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://riushost.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://riushost.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://riushost.com/it/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://riushost.com/de/" />
+  </url>
+  <url>
+    <loc>https://riushost.com/it/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://riushost.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://riushost.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://riushost.com/it/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://riushost.com/de/" />
+  </url>
+  <url>
+    <loc>https://riushost.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://riushost.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://riushost.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://riushost.com/it/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://riushost.com/de/" />
+  </url>
+  <url>
+    <loc>https://riushost.com/aviso-legal/</loc>
+  </url>
+  <url>
+    <loc>https://riushost.com/privacidad/</loc>
+  </url>
+  <url>
+    <loc>https://riushost.com/cookies/</loc>
+  </url>
 </urlset>
