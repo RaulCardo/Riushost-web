@@ -1,10 +1,11 @@
-window.RH_I18N = {
+{
  "es": {
   "header": {
    "services": "Servicios",
    "benefits": "Beneficios",
    "contact": "Contacta con nosotros",
-   "changeLanguage": "Cambiar idioma"
+   "changeLanguage": "Cambiar idioma",
+   "faq": "Preguntas frecuentes"
   },
   "hero": {
    "main": "En València, tu propiedad, nuestra gestión",
@@ -104,7 +105,10 @@ window.RH_I18N = {
     "rooms": "Número de habitaciones",
     "message": "Comentarios adicionales",
     "messagePlaceholder": "¿Algo más que debamos saber?",
-    "button": "Enviar mensaje"
+    "button": "Enviar mensaje",
+    "consent": "He leído y acepto la {privacy}.",
+    "privacyLink": "política de privacidad",
+    "consentError": "Debes aceptar la política de privacidad para enviar el mensaje."
    },
    "trust": "Confianza y profesionalidad a tu servicio.",
    "toastSuccessTitle": "¡Mensaje enviado! 🌊",
@@ -116,7 +120,46 @@ window.RH_I18N = {
   },
   "footer": {
    "subtitle": "Gestión integral de alquileres vacacionales. Tu tranquilidad, nuestro compromiso.",
-   "copyright": "© 2025 RiusHost. Todos los derechos reservados."
+   "copyright": "© 2025 RiusHost. Todos los derechos reservados.",
+   "legal": "Aviso legal",
+   "privacy": "Privacidad",
+   "cookies": "Cookies",
+   "langNote": ""
+  },
+  "langName": "Español",
+  "meta": {
+   "title": "RiusHost · Gestión de alquileres vacacionales en València",
+   "description": "Gestionamos tu alquiler vacacional en València de principio a fin: anuncios en Airbnb y Booking, limpieza, check-in, reservas, precios y mantenimiento."
+  },
+  "faq": {
+   "title": "Preguntas frecuentes",
+   "subtitle": "Lo que suelen preguntarnos los propietarios antes de empezar",
+   "items": [
+    {
+     "q": "¿En qué zonas trabajáis?",
+     "a": "En València ciudad y en los municipios de su área metropolitana y la provincia. Si tu vivienda no aparece en la lista del formulario, escríbenos igualmente."
+    },
+    {
+     "q": "¿Necesito licencia para alquilar mi vivienda a turistas?",
+     "a": "Sí. En la Comunitat Valenciana la vivienda debe estar inscrita en el Registro de Turismo y cumplir la normativa urbanística de su municipio. Te orientamos sobre los pasos y la documentación."
+    },
+    {
+     "q": "¿Puedo seguir usando mi vivienda?",
+     "a": "Sí. Bloqueamos en el calendario las fechas que quieras reservar para ti o para tu familia. Solo tienes que avisarnos con antelación."
+    },
+    {
+     "q": "¿Quién paga la limpieza?",
+     "a": "Normalmente la tarifa de limpieza la paga el huésped al hacer la reserva. Nosotros la coordinamos después de cada salida."
+    },
+    {
+     "q": "¿Qué pasa si un huésped causa daños?",
+     "a": "Revisamos la vivienda después de cada estancia y, si hay daños, gestionamos la reclamación con la plataforma de la reserva. Te recomendamos además un seguro de hogar que cubra el uso turístico."
+    },
+    {
+     "q": "¿Cómo sé cuánto ha ganado mi vivienda?",
+     "a": "Te enviamos un resumen periódico con reservas, ingresos y gastos, y puedes preguntarnos en cualquier momento."
+    }
+   ]
   }
  },
  "val": {
@@ -124,7 +167,8 @@ window.RH_I18N = {
    "services": "Serveis",
    "benefits": "Beneficis",
    "contact": "Contacta amb nosaltres",
-   "changeLanguage": "Canviar idioma"
+   "changeLanguage": "Canviar idioma",
+   "faq": "Preguntes freqüents"
   },
   "hero": {
    "main": "La teua propietat, la nostra gestió",
@@ -224,7 +268,10 @@ window.RH_I18N = {
     "rooms": "Nombre d'habitacions",
     "message": "Comentaris addicionals",
     "messagePlaceholder": "Alguna cosa més que hàgem de saber?",
-    "button": "Enviar missatge"
+    "button": "Enviar missatge",
+    "consent": "He llegit i accepte la {privacy}.",
+    "privacyLink": "política de privacitat",
+    "consentError": "Has d'acceptar la política de privacitat per a enviar el missatge."
    },
    "trust": "Confiança i professionalitat al teu servei.",
    "toastSuccessTitle": "Missatge enviat! 🌊",
@@ -236,7 +283,46 @@ window.RH_I18N = {
   },
   "footer": {
    "subtitle": "Gestió integral de lloguers de vacances. La teua tranquil·litat, el nostre compromís.",
-   "copyright": "© 2025 RiusHost. Tots els drets reservats."
+   "copyright": "© 2025 RiusHost. Tots els drets reservats.",
+   "legal": "Avís legal",
+   "privacy": "Privacitat",
+   "cookies": "Galetes",
+   "langNote": "Els textos legals estan disponibles en castellà."
+  },
+  "langName": "Valencià",
+  "meta": {
+   "title": "RiusHost · Gestió de lloguers turístics a València",
+   "description": "Gestionem el teu lloguer turístic a València de principi a fi: anuncis a Airbnb i Booking, neteja, check-in, reserves, preus i manteniment."
+  },
+  "faq": {
+   "title": "Preguntes freqüents",
+   "subtitle": "El que solen preguntar-nos els propietaris abans de començar",
+   "items": [
+    {
+     "q": "En quines zones treballeu?",
+     "a": "A la ciutat de València i als municipis de la seua àrea metropolitana i de la província. Si el teu habitatge no apareix a la llista del formulari, escriu-nos igualment."
+    },
+    {
+     "q": "Necessite llicència per a llogar el meu habitatge a turistes?",
+     "a": "Sí. A la Comunitat Valenciana l'habitatge ha d'estar inscrit en el Registre de Turisme i complir la normativa urbanística del seu municipi. T'orientem sobre els passos i la documentació."
+    },
+    {
+     "q": "Puc continuar utilitzant el meu habitatge?",
+     "a": "Sí. Bloquegem en el calendari les dates que vulgues reservar per a tu o la teua família. Només cal que ens avises amb antelació."
+    },
+    {
+     "q": "Qui paga la neteja?",
+     "a": "Normalment la tarifa de neteja la paga l'hoste en fer la reserva. Nosaltres la coordinem després de cada eixida."
+    },
+    {
+     "q": "Què passa si un hoste causa danys?",
+     "a": "Revisem l'habitatge després de cada estada i, si hi ha danys, gestionem la reclamació amb la plataforma de la reserva. També et recomanem una assegurança de la llar que cobrisca l'ús turístic."
+    },
+    {
+     "q": "Com sé quant ha guanyat el meu habitatge?",
+     "a": "T'enviem un resum periòdic amb reserves, ingressos i despeses, i ens pots preguntar en qualsevol moment."
+    }
+   ]
   }
  },
  "en": {
@@ -244,7 +330,8 @@ window.RH_I18N = {
    "services": "Services",
    "benefits": "Benefits",
    "contact": "Contact Us",
-   "changeLanguage": "Change language"
+   "changeLanguage": "Change language",
+   "faq": "FAQ"
   },
   "hero": {
    "main": "Your property, our management",
@@ -344,7 +431,10 @@ window.RH_I18N = {
     "rooms": "Number of rooms",
     "message": "Additional comments",
     "messagePlaceholder": "Anything else we should know?",
-    "button": "Send message"
+    "button": "Send message",
+    "consent": "I have read and accept the {privacy}.",
+    "privacyLink": "privacy policy",
+    "consentError": "Please accept the privacy policy to send your message."
    },
    "trust": "Trust and professionalism at your service.",
    "toastSuccessTitle": "Message sent! 🌊",
@@ -356,7 +446,46 @@ window.RH_I18N = {
   },
   "footer": {
    "subtitle": "Comprehensive management of vacation rentals. Your peace of mind, our commitment.",
-   "copyright": "© 2025 RiusHost. All rights reserved."
+   "copyright": "© 2025 RiusHost. All rights reserved.",
+   "legal": "Legal notice",
+   "privacy": "Privacy",
+   "cookies": "Cookies",
+   "langNote": "Legal texts are available in Spanish."
+  },
+  "langName": "English",
+  "meta": {
+   "title": "RiusHost · Holiday rental management in Valencia",
+   "description": "We manage your holiday rental in Valencia from start to finish: Airbnb and Booking listings, cleaning, check-in, bookings, pricing and maintenance."
+  },
+  "faq": {
+   "title": "Frequently asked questions",
+   "subtitle": "What owners usually ask us before getting started",
+   "items": [
+    {
+     "q": "Which areas do you cover?",
+     "a": "Valencia city and the towns in its metropolitan area and province. If your property is not on the list in the form, write to us anyway."
+    },
+    {
+     "q": "Do I need a licence to rent my property to tourists?",
+     "a": "Yes. In the Valencian Community the property must be registered in the Tourism Register and comply with its town's planning rules. We guide you through the steps and paperwork."
+    },
+    {
+     "q": "Can I still use my property?",
+     "a": "Yes. We block the dates you want to keep for yourself or your family in the calendar. Just let us know in advance."
+    },
+    {
+     "q": "Who pays for cleaning?",
+     "a": "The cleaning fee is usually paid by the guest when booking. We coordinate the cleaning after every check-out."
+    },
+    {
+     "q": "What happens if a guest causes damage?",
+     "a": "We inspect the property after every stay and, if there is damage, we handle the claim with the booking platform. We also recommend home insurance that covers holiday letting."
+    },
+    {
+     "q": "How do I know how much my property has earned?",
+     "a": "We send you a regular summary of bookings, income and expenses, and you can ask us at any time."
+    }
+   ]
   }
  },
  "fr": {
@@ -364,7 +493,8 @@ window.RH_I18N = {
    "services": "Services",
    "benefits": "Avantages",
    "contact": "Contactez-nous",
-   "changeLanguage": "Changer de langue"
+   "changeLanguage": "Changer de langue",
+   "faq": "FAQ"
   },
   "hero": {
    "main": "Votre propriété, notre gestion",
@@ -464,7 +594,10 @@ window.RH_I18N = {
     "rooms": "Nombre de chambres",
     "message": "Commentaires supplémentaires",
     "messagePlaceholder": "Autre chose que nous devrions savoir ?",
-    "button": "Envoyer le message"
+    "button": "Envoyer le message",
+    "consent": "J'ai lu et j'accepte la {privacy}.",
+    "privacyLink": "politique de confidentialité",
+    "consentError": "Veuillez accepter la politique de confidentialité pour envoyer votre message."
    },
    "trust": "Confiance et professionnalisme à votre service.",
    "toastSuccessTitle": "Message envoyé ! 🌊",
@@ -476,7 +609,46 @@ window.RH_I18N = {
   },
   "footer": {
    "subtitle": "Gestion complète des locations de vacances. Votre tranquillité d'esprit, notre engagement.",
-   "copyright": "© 2025 RiusHost. Tous droits réservés."
+   "copyright": "© 2025 RiusHost. Tous droits réservés.",
+   "legal": "Mentions légales",
+   "privacy": "Confidentialité",
+   "cookies": "Cookies",
+   "langNote": "Les textes légaux sont disponibles en espagnol."
+  },
+  "langName": "Français",
+  "meta": {
+   "title": "RiusHost · Gestion de locations saisonnières à Valence",
+   "description": "Nous gérons votre location saisonnière à Valence de A à Z : annonces Airbnb et Booking, ménage, check-in, réservations, prix et entretien."
+  },
+  "faq": {
+   "title": "Questions fréquentes",
+   "subtitle": "Ce que les propriétaires nous demandent souvent avant de commencer",
+   "items": [
+    {
+     "q": "Dans quelles zones intervenez-vous ?",
+     "a": "À Valence et dans les communes de son agglomération et de la province. Si votre logement ne figure pas dans la liste du formulaire, écrivez-nous quand même."
+    },
+    {
+     "q": "Ai-je besoin d'une licence pour louer mon logement à des touristes ?",
+     "a": "Oui. Dans la Communauté valencienne, le logement doit être inscrit au Registre du tourisme et respecter les règles d'urbanisme de sa commune. Nous vous guidons dans les démarches."
+    },
+    {
+     "q": "Puis-je continuer à utiliser mon logement ?",
+     "a": "Oui. Nous bloquons dans le calendrier les dates que vous souhaitez garder pour vous ou votre famille. Il suffit de nous prévenir à l'avance."
+    },
+    {
+     "q": "Qui paie le ménage ?",
+     "a": "Les frais de ménage sont généralement payés par le voyageur lors de la réservation. Nous organisons le ménage après chaque départ."
+    },
+    {
+     "q": "Que se passe-t-il si un voyageur cause des dégâts ?",
+     "a": "Nous vérifions le logement après chaque séjour et, en cas de dégâts, nous gérons la réclamation auprès de la plateforme de réservation. Nous vous conseillons aussi une assurance habitation couvrant la location touristique."
+    },
+    {
+     "q": "Comment savoir ce que mon logement a rapporté ?",
+     "a": "Nous vous envoyons régulièrement un récapitulatif des réservations, des revenus et des dépenses, et vous pouvez nous interroger à tout moment."
+    }
+   ]
   }
  },
  "pt": {
@@ -484,7 +656,8 @@ window.RH_I18N = {
    "services": "Serviços",
    "benefits": "Benefícios",
    "contact": "Contacte-nos",
-   "changeLanguage": "Mudar idioma"
+   "changeLanguage": "Mudar idioma",
+   "faq": "Perguntas frequentes"
   },
   "hero": {
    "main": "Sua propriedade, nossa gestão",
@@ -584,7 +757,10 @@ window.RH_I18N = {
     "rooms": "Número de quartos",
     "message": "Comentários adicionais",
     "messagePlaceholder": "Algo mais que devamos saber?",
-    "button": "Enviar mensagem"
+    "button": "Enviar mensagem",
+    "consent": "Li e aceito a {privacy}.",
+    "privacyLink": "política de privacidade",
+    "consentError": "Tem de aceitar a política de privacidade para enviar a mensagem."
    },
    "trust": "Confiança e profissionalismo ao seu serviço.",
    "toastSuccessTitle": "Mensagem enviada! 🌊",
@@ -596,7 +772,46 @@ window.RH_I18N = {
   },
   "footer": {
    "subtitle": "Gestão abrangente de aluguéis de temporada. Sua paz de espírito, nosso compromisso.",
-   "copyright": "© 2025 RiusHost. Todos os direitos reservados."
+   "copyright": "© 2025 RiusHost. Todos os direitos reservados.",
+   "legal": "Aviso legal",
+   "privacy": "Privacidade",
+   "cookies": "Cookies",
+   "langNote": "Os textos legais estão disponíveis em espanhol."
+  },
+  "langName": "Português",
+  "meta": {
+   "title": "RiusHost · Gestão de alojamento local em Valência",
+   "description": "Gerimos o seu alojamento de férias em Valência do início ao fim: anúncios no Airbnb e Booking, limpeza, check-in, reservas, preços e manutenção."
+  },
+  "faq": {
+   "title": "Perguntas frequentes",
+   "subtitle": "O que os proprietários costumam perguntar antes de começar",
+   "items": [
+    {
+     "q": "Em que zonas trabalham?",
+     "a": "Na cidade de Valência e nos municípios da sua área metropolitana e da província. Se o seu imóvel não aparece na lista do formulário, escreva-nos na mesma."
+    },
+    {
+     "q": "Preciso de licença para arrendar o meu imóvel a turistas?",
+     "a": "Sim. Na Comunidade Valenciana o imóvel tem de estar inscrito no Registo de Turismo e cumprir as normas urbanísticas do seu município. Orientamo-lo nos passos e na documentação."
+    },
+    {
+     "q": "Posso continuar a usar o meu imóvel?",
+     "a": "Sim. Bloqueamos no calendário as datas que quiser reservar para si ou para a sua família. Basta avisar-nos com antecedência."
+    },
+    {
+     "q": "Quem paga a limpeza?",
+     "a": "Normalmente a taxa de limpeza é paga pelo hóspede ao reservar. Nós coordenamos a limpeza depois de cada saída."
+    },
+    {
+     "q": "O que acontece se um hóspede causar danos?",
+     "a": "Revemos o imóvel depois de cada estadia e, se houver danos, tratamos da reclamação com a plataforma da reserva. Recomendamos também um seguro de habitação que cubra o uso turístico."
+    },
+    {
+     "q": "Como sei quanto o meu imóvel rendeu?",
+     "a": "Enviamos-lhe um resumo periódico com reservas, receitas e despesas, e pode perguntar-nos a qualquer momento."
+    }
+   ]
   }
  },
  "it": {
@@ -604,7 +819,8 @@ window.RH_I18N = {
    "services": "Servizi",
    "benefits": "Benefici",
    "contact": "Contattaci",
-   "changeLanguage": "Cambia lingua"
+   "changeLanguage": "Cambia lingua",
+   "faq": "Domande frequenti"
   },
   "hero": {
    "main": "La tua proprietà, la nostra gestione",
@@ -704,7 +920,10 @@ window.RH_I18N = {
     "rooms": "Numero di stanze",
     "message": "Commenti aggiuntivi",
     "messagePlaceholder": "Qualcos'altro che dovremmo sapere?",
-    "button": "Invia messaggio"
+    "button": "Invia messaggio",
+    "consent": "Ho letto e accetto l'{privacy}.",
+    "privacyLink": "informativa sulla privacy",
+    "consentError": "Devi accettare l'informativa sulla privacy per inviare il messaggio."
    },
    "trust": "Fiducia e professionalità al tuo servizio.",
    "toastSuccessTitle": "Messaggio inviato! 🌊",
@@ -716,7 +935,209 @@ window.RH_I18N = {
   },
   "footer": {
    "subtitle": "Gestione completa di affitti per le vacanze. La tua tranquillità, il nostro impegno.",
-   "copyright": "© 2025 RiusHost. Tutti i diritti riservati."
+   "copyright": "© 2025 RiusHost. Tutti i diritti riservati.",
+   "legal": "Note legali",
+   "privacy": "Privacy",
+   "cookies": "Cookie",
+   "langNote": "I testi legali sono disponibili in spagnolo."
+  },
+  "langName": "Italiano",
+  "meta": {
+   "title": "RiusHost · Gestione di affitti brevi a Valencia",
+   "description": "Gestiamo il tuo affitto turistico a Valencia dall'inizio alla fine: annunci su Airbnb e Booking, pulizie, check-in, prenotazioni, prezzi e manutenzione."
+  },
+  "faq": {
+   "title": "Domande frequenti",
+   "subtitle": "Quello che i proprietari ci chiedono di solito prima di iniziare",
+   "items": [
+    {
+     "q": "In quali zone lavorate?",
+     "a": "A Valencia città e nei comuni della sua area metropolitana e della provincia. Se il tuo immobile non è nell'elenco del modulo, scrivici comunque."
+    },
+    {
+     "q": "Mi serve una licenza per affittare il mio immobile ai turisti?",
+     "a": "Sì. Nella Comunità Valenciana l'immobile deve essere iscritto al Registro del Turismo e rispettare le norme urbanistiche del suo comune. Ti guidiamo nei passaggi e nella documentazione."
+    },
+    {
+     "q": "Posso continuare a usare il mio immobile?",
+     "a": "Sì. Blocchiamo nel calendario le date che vuoi tenere per te o per la tua famiglia. Basta avvisarci con anticipo."
+    },
+    {
+     "q": "Chi paga le pulizie?",
+     "a": "Di solito il costo delle pulizie è a carico dell'ospite al momento della prenotazione. Noi organizziamo le pulizie dopo ogni partenza."
+    },
+    {
+     "q": "Cosa succede se un ospite causa danni?",
+     "a": "Controlliamo l'immobile dopo ogni soggiorno e, in caso di danni, gestiamo il reclamo con la piattaforma di prenotazione. Ti consigliamo anche un'assicurazione casa che copra l'uso turistico."
+    },
+    {
+     "q": "Come so quanto ha guadagnato il mio immobile?",
+     "a": "Ti inviamo un riepilogo periodico con prenotazioni, entrate e spese, e puoi chiederci in qualsiasi momento."
+    }
+   ]
+  }
+ },
+ "de": {
+  "header": {
+   "services": "Leistungen",
+   "benefits": "Vorteile",
+   "contact": "Kontakt",
+   "changeLanguage": "Sprache ändern",
+   "faq": "FAQ"
+  },
+  "hero": {
+   "main": "Ihre Immobilie, unsere Verwaltung",
+   "sub": "Entspannen Sie sich, während wir Ihre Ferienwohnung von A bis Z betreuen.",
+   "button": "Kontaktieren Sie uns"
+  },
+  "services": {
+   "title": "Unsere Leistungen",
+   "subtitle": "Rundum-Verwaltung, damit Sie sich nur noch über die Einnahmen freuen müssen",
+   "items": [
+    {
+     "title": "Inserate auf Plattformen",
+     "description": "Wir erstellen und optimieren Ihre Inserate auf Airbnb, Booking und weiteren führenden Plattformen, mit professionellen Fotos und ansprechenden Beschreibungen."
+    },
+    {
+     "title": "Professionelle Reinigung",
+     "description": "Gründliche Reinigung zwischen den Gästen. Ihre Wohnung ist immer makellos und bereit für die nächsten Gäste."
+    },
+    {
+     "title": "Check-in und Check-out",
+     "description": "Wir kümmern uns um An- und Abreise der Gäste, die Schlüsselübergabe und eine persönliche Betreuung für einen perfekten Aufenthalt."
+    },
+    {
+     "title": "Buchungsverwaltung",
+     "description": "Wir koordinieren Kalender, dynamische Preise und die Kommunikation mit den Gästen. So maximieren wir Ihre Auslastung und Ihren Gewinn."
+    },
+    {
+     "title": "Ertragsoptimierung",
+     "description": "Wir setzen fortschrittliche Methoden zur Online-Sichtbarkeit und dynamischen Preisgestaltung ein, um die Rentabilität Ihrer Immobilie zu steigern."
+    },
+    {
+     "title": "Wartung und technische Probleme",
+     "description": "Wir übernehmen kleine Reparaturen und lösen technische Probleme, die auftreten können, damit in Ihrer Wohnung alles funktioniert."
+    }
+   ]
+  },
+  "benefits": {
+   "title": "Warum RiusHost?",
+   "subtitle": "Volle Entspannung für Sie, professionelle Verwaltung für Ihre Immobilie",
+   "items": [
+    {
+     "title": "Mehr Einnahmen",
+     "description": "Wir optimieren Preise und Auslastung, damit Sie ohne Aufwand mehr verdienen"
+    },
+    {
+     "title": "Zeit sparen",
+     "description": "Keine Verwaltung, keine Anrufe, keine Absprachen. Wir erledigen alles"
+    },
+    {
+     "title": "Volle Sicherheit",
+     "description": "Ihre Immobilie in erfahrenen Händen. Sorgfalt und Schutz garantiert"
+    },
+    {
+     "title": "Persönliche Betreuung",
+     "description": "Jede Immobilie ist einzigartig. Wir passen unseren Service an Ihre Bedürfnisse an"
+    }
+   ],
+   "bannerTitle": "Sie entspannen, wir arbeiten",
+   "bannerSubtitle": "Während Sie Ihre Freizeit genießen, erwirtschaftet Ihre Immobilie Einnahmen",
+   "pricing": {
+    "title": "Wählen Sie Ihr Abrechnungsmodell",
+    "subtitle": "Wir passen unser Honorar an Ihre Wünsche an",
+    "fixed": {
+     "title": "Feste Monatspauschale",
+     "description": "Ein fester Betrag jeden Monat. Ideal, wenn Sie planbare Kosten bevorzugen und 100 % der Mehreinnahmen in der Hochsaison behalten möchten."
+    },
+    "percentage": {
+     "title": "Prozentsatz der Einnahmen",
+     "description": "Eine erfolgsabhängige Provision. Wenn Sie nichts verdienen, verdienen wir auch nichts. Wir teilen Risiko und Erfolg Ihrer Immobilie."
+    }
+   }
+  },
+  "contact": {
+   "title": "Sprechen wir über Ihre Immobilie",
+   "subtitle": "Erzählen Sie uns von Ihrer Ferienwohnung und erfahren Sie, wie wir Ihnen helfen können",
+   "cardTitle": "Kontaktieren Sie uns",
+   "cardSubtitle": "Wir beantworten gerne alle Ihre Fragen und helfen Ihnen, sorgenfrei Einnahmen zu erzielen.",
+   "email": "E-Mail",
+   "phone": "Telefon",
+   "form": {
+    "name": "Vollständiger Name",
+    "namePlaceholder": "Ihr Name",
+    "email": "E-Mail",
+    "emailPlaceholder": "ihre@email.de",
+    "phone": "Telefon",
+    "phonePrefix": "Vorwahl",
+    "phonePlaceholder": "151 2345 6789",
+    "location": "Gemeinde (Valencia)",
+    "propertyType": "Art der Immobilie",
+    "propertyTypes": {
+     "apartment": "Wohnung",
+     "chalet": "Haus",
+     "villa": "Villa",
+     "rural": "Landhaus",
+     "other": "Sonstiges"
+    },
+    "rooms": "Anzahl der Zimmer",
+    "message": "Weitere Anmerkungen",
+    "messagePlaceholder": "Gibt es noch etwas, das wir wissen sollten?",
+    "button": "Nachricht senden",
+    "consent": "Ich habe die {privacy} gelesen und akzeptiere sie.",
+    "privacyLink": "Datenschutzerklärung",
+    "consentError": "Bitte akzeptieren Sie die Datenschutzerklärung, um Ihre Nachricht zu senden."
+   },
+   "trust": "Vertrauen und Professionalität für Sie.",
+   "toastSuccessTitle": "Nachricht gesendet! 🌊",
+   "toastSuccessDescription": "Wir melden uns sehr bald bei Ihnen. Vielen Dank für Ihr Vertrauen in RiusHost!",
+   "toastErrorTitle": "❌ Fehler beim Senden",
+   "toastErrorDescription": "Die Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an info@riushost.com",
+   "toastConfigErrorTitle": "⚙️ Konfiguration ausstehend",
+   "toastConfigErrorDescription": "Der E-Mail-Dienst ist nicht eingerichtet. Bitte schreiben Sie direkt an info@riushost.com"
+  },
+  "footer": {
+   "subtitle": "Rundum-Verwaltung von Ferienwohnungen. Ihre Ruhe, unser Engagement.",
+   "copyright": "© 2025 RiusHost. Alle Rechte vorbehalten.",
+   "legal": "Impressum",
+   "privacy": "Datenschutz",
+   "cookies": "Cookies",
+   "langNote": "Die Rechtstexte sind auf Spanisch verfügbar."
+  },
+  "langName": "Deutsch",
+  "meta": {
+   "title": "RiusHost · Verwaltung von Ferienwohnungen in Valencia",
+   "description": "Wir betreuen Ihre Ferienwohnung in Valencia von A bis Z: Inserate auf Airbnb und Booking, Reinigung, Check-in, Buchungen, Preise und Wartung."
+  },
+  "faq": {
+   "title": "Häufige Fragen",
+   "subtitle": "Was Eigentümer uns vor dem Start oft fragen",
+   "items": [
+    {
+     "q": "In welchen Gebieten sind Sie tätig?",
+     "a": "In der Stadt Valencia sowie in den Gemeinden des Großraums und der Provinz. Wenn Ihre Immobilie nicht in der Liste des Formulars steht, schreiben Sie uns trotzdem."
+    },
+    {
+     "q": "Brauche ich eine Lizenz, um meine Wohnung an Touristen zu vermieten?",
+     "a": "Ja. In der Region Valencia muss die Wohnung im Tourismusregister eingetragen sein und die Bauvorschriften ihrer Gemeinde erfüllen. Wir begleiten Sie bei den Schritten und Unterlagen."
+    },
+    {
+     "q": "Kann ich meine Wohnung weiterhin selbst nutzen?",
+     "a": "Ja. Wir blockieren im Kalender die Termine, die Sie für sich oder Ihre Familie freihalten möchten. Sagen Sie uns einfach rechtzeitig Bescheid."
+    },
+    {
+     "q": "Wer bezahlt die Reinigung?",
+     "a": "Die Reinigungsgebühr zahlt in der Regel der Gast bei der Buchung. Wir organisieren die Reinigung nach jeder Abreise."
+    },
+    {
+     "q": "Was passiert, wenn ein Gast Schäden verursacht?",
+     "a": "Wir prüfen die Wohnung nach jedem Aufenthalt und kümmern uns bei Schäden um die Reklamation bei der Buchungsplattform. Außerdem empfehlen wir eine Hausratversicherung, die die touristische Vermietung abdeckt."
+    },
+    {
+     "q": "Wie erfahre ich, wie viel meine Wohnung eingebracht hat?",
+     "a": "Wir senden Ihnen regelmäßig eine Übersicht über Buchungen, Einnahmen und Ausgaben, und Sie können uns jederzeit fragen."
+    }
+   ]
   }
  }
-};
+}
