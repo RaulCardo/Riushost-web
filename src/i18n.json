@@ -5,7 +5,8 @@
    "benefits": "Beneficios",
    "contact": "Contacta con nosotros",
    "changeLanguage": "Cambiar idioma",
-   "faq": "Preguntas frecuentes"
+   "faq": "Preguntas frecuentes",
+   "how": "Cómo funciona"
   },
   "hero": {
    "main": "En València, tu propiedad, nuestra gestión",
@@ -128,8 +129,8 @@
   },
   "langName": "Español",
   "meta": {
-   "title": "RiusHost · Gestión de alquileres vacacionales en València",
-   "description": "Gestionamos tu alquiler vacacional en València de principio a fin: anuncios en Airbnb y Booking, limpieza, check-in, reservas, precios y mantenimiento."
+   "title": "Gestión de pisos turísticos en València | RiusHost",
+   "description": "Empresa familiar de gestión integral de alquiler vacacional en València: anuncios en Airbnb y Booking, precios, reservas, check-in, limpieza y mantenimiento. Cuota fija o comisión."
   },
   "faq": {
    "title": "Preguntas frecuentes",
@@ -160,6 +161,38 @@
      "a": "Te enviamos un resumen periódico con reservas, ingresos y gastos, y puedes preguntarnos en cualquier momento."
     }
    ]
+  },
+  "heroAlt": "Vista aérea de València junto al mar Mediterráneo",
+  "about": {
+   "title": "Sobre RiusHost",
+   "text": "RiusHost es una empresa familiar de València que gestiona viviendas de uso turístico en nombre de sus propietarios. Nos ocupamos de todo el ciclo del alquiler: anuncios en Airbnb, Booking y otras plataformas, precios, reservas, atención a los huéspedes, check-in, limpieza y mantenimiento. Trabajamos en València ciudad y en los municipios de su área metropolitana, con cuota mensual fija o comisión sobre ingresos."
+  },
+  "how": {
+   "title": "Cómo funciona",
+   "subtitle": "Del primer contacto a tu primera reserva, en cuatro pasos",
+   "steps": [
+    {
+     "title": "Nos cuentas tu vivienda",
+     "text": "Rellena el formulario o llámanos y cuéntanos dónde está y cómo es."
+    },
+    {
+     "title": "Te hacemos una propuesta",
+     "text": "Vemos la vivienda, estimamos lo que puede generar y eliges cuota fija o comisión."
+    },
+    {
+     "title": "Preparamos el anuncio",
+     "text": "Fotos, descripción, precios y publicación en Airbnb, Booking y otras plataformas."
+    },
+    {
+     "title": "Nosotros gestionamos, tú cobras",
+     "text": "Reservas, huéspedes, limpieza y mantenimiento, con un resumen periódico de ingresos y gastos."
+    }
+   ]
+  },
+  "notFound": {
+   "title": "Página no encontrada",
+   "text": "La página que buscas no existe o ha cambiado de dirección.",
+   "button": "Ir a la portada"
   }
  },
  "val": {
@@ -168,7 +201,8 @@
    "benefits": "Beneficis",
    "contact": "Contacta amb nosaltres",
    "changeLanguage": "Canviar idioma",
-   "faq": "Preguntes freqüents"
+   "faq": "Preguntes freqüents",
+   "how": "Com funciona"
   },
   "hero": {
    "main": "La teua propietat, la nostra gestió",
@@ -291,8 +325,8 @@
   },
   "langName": "Valencià",
   "meta": {
-   "title": "RiusHost · Gestió de lloguers turístics a València",
-   "description": "Gestionem el teu lloguer turístic a València de principi a fi: anuncis a Airbnb i Booking, neteja, check-in, reserves, preus i manteniment."
+   "title": "Gestió de pisos turístics a València | RiusHost",
+   "description": "Empresa familiar de gestió integral de lloguer turístic a València: anuncis a Airbnb i Booking, preus, reserves, check-in, neteja i manteniment. Quota fixa o comissió."
   },
   "faq": {
    "title": "Preguntes freqüents",
@@ -323,6 +357,38 @@
      "a": "T'enviem un resum periòdic amb reserves, ingressos i despeses, i ens pots preguntar en qualsevol moment."
     }
    ]
+  },
+  "heroAlt": "Vista aèria de València al costat de la mar Mediterrània",
+  "about": {
+   "title": "Sobre RiusHost",
+   "text": "RiusHost és una empresa familiar de València que gestiona habitatges d'ús turístic en nom dels seus propietaris. Ens ocupem de tot el cicle del lloguer: anuncis a Airbnb, Booking i altres plataformes, preus, reserves, atenció als hostes, check-in, neteja i manteniment. Treballem a la ciutat de València i als municipis de la seua àrea metropolitana, amb quota mensual fixa o comissió sobre ingressos."
+  },
+  "how": {
+   "title": "Com funciona",
+   "subtitle": "Del primer contacte a la primera reserva, en quatre passos",
+   "steps": [
+    {
+     "title": "Ens contes el teu habitatge",
+     "text": "Omple el formulari o telefona'ns i explica'ns on està i com és."
+    },
+    {
+     "title": "Et fem una proposta",
+     "text": "Veiem l'habitatge, estimem el que pot generar i tries quota fixa o comissió."
+    },
+    {
+     "title": "Preparem l'anunci",
+     "text": "Fotos, descripció, preus i publicació a Airbnb, Booking i altres plataformes."
+    },
+    {
+     "title": "Nosaltres gestionem, tu cobres",
+     "text": "Reserves, hostes, neteja i manteniment, amb un resum periòdic d'ingressos i despeses."
+    }
+   ]
+  },
+  "notFound": {
+   "title": "Pàgina no trobada",
+   "text": "La pàgina que busques no existeix o ha canviat d'adreça.",
+   "button": "Anar a la portada"
   }
  },
  "en": {
@@ -331,7 +397,8 @@
    "benefits": "Benefits",
    "contact": "Contact Us",
    "changeLanguage": "Change language",
-   "faq": "FAQ"
+   "faq": "FAQ",
+   "how": "How it works"
   },
   "hero": {
    "main": "Your property, our management",
@@ -454,8 +521,8 @@
   },
   "langName": "English",
   "meta": {
-   "title": "RiusHost · Holiday rental management in Valencia",
-   "description": "We manage your holiday rental in Valencia from start to finish: Airbnb and Booking listings, cleaning, check-in, bookings, pricing and maintenance."
+   "title": "Holiday Rental Management in Valencia, Spain | RiusHost",
+   "description": "Family-run, full-service holiday rental management in Valencia: Airbnb and Booking listings, pricing, bookings, check-in, cleaning and maintenance. Fixed fee or commission."
   },
   "faq": {
    "title": "Frequently asked questions",
@@ -486,6 +553,38 @@
      "a": "We send you a regular summary of bookings, income and expenses, and you can ask us at any time."
     }
    ]
+  },
+  "heroAlt": "Aerial view of Valencia by the Mediterranean Sea",
+  "about": {
+   "title": "About RiusHost",
+   "text": "RiusHost is a family-run company in Valencia, Spain, that manages holiday rental properties on behalf of their owners. We handle the whole rental cycle: listings on Airbnb, Booking and other platforms, pricing, bookings, guest communication, check-in, cleaning and maintenance. We work in Valencia city and the surrounding metropolitan area, for a fixed monthly fee or a commission on income."
+  },
+  "how": {
+   "title": "How it works",
+   "subtitle": "From first contact to your first booking, in four steps",
+   "steps": [
+    {
+     "title": "Tell us about your property",
+     "text": "Fill in the form or call us and tell us where it is and what it is like."
+    },
+    {
+     "title": "We make you an offer",
+     "text": "We visit the property, estimate what it can earn, and you choose a fixed fee or commission."
+    },
+    {
+     "title": "We prepare the listing",
+     "text": "Photos, description, pricing and publication on Airbnb, Booking and other platforms."
+    },
+    {
+     "title": "We manage, you get paid",
+     "text": "Bookings, guests, cleaning and maintenance, with a regular summary of income and expenses."
+    }
+   ]
+  },
+  "notFound": {
+   "title": "Page not found",
+   "text": "The page you are looking for does not exist or has moved.",
+   "button": "Go to the home page"
   }
  },
  "fr": {
@@ -494,7 +593,8 @@
    "benefits": "Avantages",
    "contact": "Contactez-nous",
    "changeLanguage": "Changer de langue",
-   "faq": "FAQ"
+   "faq": "FAQ",
+   "how": "Fonctionnement"
   },
   "hero": {
    "main": "Votre propriété, notre gestion",
@@ -617,8 +717,8 @@
   },
   "langName": "Français",
   "meta": {
-   "title": "RiusHost · Gestion de locations saisonnières à Valence",
-   "description": "Nous gérons votre location saisonnière à Valence de A à Z : annonces Airbnb et Booking, ménage, check-in, réservations, prix et entretien."
+   "title": "Conciergerie et gestion locative à Valence (Espagne) | RiusHost",
+   "description": "Entreprise familiale de gestion complète de locations saisonnières à Valence : annonces Airbnb et Booking, prix, réservations, check-in, ménage et entretien. Forfait ou commission."
   },
   "faq": {
    "title": "Questions fréquentes",
@@ -649,6 +749,38 @@
      "a": "Nous vous envoyons régulièrement un récapitulatif des réservations, des revenus et des dépenses, et vous pouvez nous interroger à tout moment."
     }
    ]
+  },
+  "heroAlt": "Vue aérienne de Valence au bord de la Méditerranée",
+  "about": {
+   "title": "À propos de RiusHost",
+   "text": "RiusHost est une entreprise familiale de Valence (Espagne) qui gère des logements touristiques pour le compte de leurs propriétaires. Nous prenons en charge tout le cycle de la location : annonces sur Airbnb, Booking et d'autres plateformes, prix, réservations, accueil des voyageurs, check-in, ménage et entretien. Nous intervenons à Valence et dans son agglomération, avec un forfait mensuel fixe ou une commission sur les revenus."
+  },
+  "how": {
+   "title": "Comment ça marche",
+   "subtitle": "Du premier contact à la première réservation, en quatre étapes",
+   "steps": [
+    {
+     "title": "Présentez-nous votre logement",
+     "text": "Remplissez le formulaire ou appelez-nous pour nous dire où il se trouve et comment il est."
+    },
+    {
+     "title": "Nous vous faisons une proposition",
+     "text": "Nous visitons le logement, estimons ce qu'il peut rapporter et vous choisissez forfait ou commission."
+    },
+    {
+     "title": "Nous préparons l'annonce",
+     "text": "Photos, description, prix et publication sur Airbnb, Booking et d'autres plateformes."
+    },
+    {
+     "title": "Nous gérons, vous encaissez",
+     "text": "Réservations, voyageurs, ménage et entretien, avec un récapitulatif régulier des revenus et des dépenses."
+    }
+   ]
+  },
+  "notFound": {
+   "title": "Page introuvable",
+   "text": "La page que vous cherchez n'existe pas ou a changé d'adresse.",
+   "button": "Aller à l'accueil"
   }
  },
  "pt": {
@@ -657,7 +789,8 @@
    "benefits": "Benefícios",
    "contact": "Contacte-nos",
    "changeLanguage": "Mudar idioma",
-   "faq": "Perguntas frequentes"
+   "faq": "Perguntas frequentes",
+   "how": "Como funciona"
   },
   "hero": {
    "main": "Sua propriedade, nossa gestão",
@@ -780,8 +913,8 @@
   },
   "langName": "Português",
   "meta": {
-   "title": "RiusHost · Gestão de alojamento local em Valência",
-   "description": "Gerimos o seu alojamento de férias em Valência do início ao fim: anúncios no Airbnb e Booking, limpeza, check-in, reservas, preços e manutenção."
+   "title": "Gestão de alojamento local em Valência, Espanha | RiusHost",
+   "description": "Empresa familiar de gestão completa de arrendamento de férias em Valência: anúncios no Airbnb e Booking, preços, reservas, check-in, limpeza e manutenção. Mensalidade fixa ou comissão."
   },
   "faq": {
    "title": "Perguntas frequentes",
@@ -812,6 +945,38 @@
      "a": "Enviamos-lhe um resumo periódico com reservas, receitas e despesas, e pode perguntar-nos a qualquer momento."
     }
    ]
+  },
+  "heroAlt": "Vista aérea de Valência junto ao mar Mediterrâneo",
+  "about": {
+   "title": "Sobre a RiusHost",
+   "text": "A RiusHost é uma empresa familiar de Valência (Espanha) que gere imóveis de uso turístico em nome dos seus proprietários. Tratamos de todo o ciclo do arrendamento: anúncios no Airbnb, Booking e outras plataformas, preços, reservas, atendimento aos hóspedes, check-in, limpeza e manutenção. Trabalhamos na cidade de Valência e na sua área metropolitana, com mensalidade fixa ou comissão sobre as receitas."
+  },
+  "how": {
+   "title": "Como funciona",
+   "subtitle": "Do primeiro contacto à primeira reserva, em quatro passos",
+   "steps": [
+    {
+     "title": "Fale-nos do seu imóvel",
+     "text": "Preencha o formulário ou ligue-nos e diga-nos onde fica e como é."
+    },
+    {
+     "title": "Fazemos-lhe uma proposta",
+     "text": "Visitamos o imóvel, estimamos quanto pode render e escolhe mensalidade fixa ou comissão."
+    },
+    {
+     "title": "Preparamos o anúncio",
+     "text": "Fotografias, descrição, preços e publicação no Airbnb, Booking e outras plataformas."
+    },
+    {
+     "title": "Nós gerimos, você recebe",
+     "text": "Reservas, hóspedes, limpeza e manutenção, com um resumo periódico de receitas e despesas."
+    }
+   ]
+  },
+  "notFound": {
+   "title": "Página não encontrada",
+   "text": "A página que procura não existe ou mudou de endereço.",
+   "button": "Ir para a página inicial"
   }
  },
  "it": {
@@ -820,7 +985,8 @@
    "benefits": "Benefici",
    "contact": "Contattaci",
    "changeLanguage": "Cambia lingua",
-   "faq": "Domande frequenti"
+   "faq": "Domande frequenti",
+   "how": "Come funziona"
   },
   "hero": {
    "main": "La tua proprietà, la nostra gestione",
@@ -943,8 +1109,8 @@
   },
   "langName": "Italiano",
   "meta": {
-   "title": "RiusHost · Gestione di affitti brevi a Valencia",
-   "description": "Gestiamo il tuo affitto turistico a Valencia dall'inizio alla fine: annunci su Airbnb e Booking, pulizie, check-in, prenotazioni, prezzi e manutenzione."
+   "title": "Gestione affitti brevi a Valencia, Spagna | RiusHost",
+   "description": "Azienda familiare di gestione completa degli affitti turistici a Valencia: annunci su Airbnb e Booking, prezzi, prenotazioni, check-in, pulizie e manutenzione. Canone fisso o commissione."
   },
   "faq": {
    "title": "Domande frequenti",
@@ -975,6 +1141,38 @@
      "a": "Ti inviamo un riepilogo periodico con prenotazioni, entrate e spese, e puoi chiederci in qualsiasi momento."
     }
    ]
+  },
+  "heroAlt": "Vista aerea di Valencia sul mar Mediterraneo",
+  "about": {
+   "title": "Chi è RiusHost",
+   "text": "RiusHost è un'azienda familiare di Valencia (Spagna) che gestisce immobili ad uso turistico per conto dei proprietari. Ci occupiamo dell'intero ciclo dell'affitto: annunci su Airbnb, Booking e altre piattaforme, prezzi, prenotazioni, assistenza agli ospiti, check-in, pulizie e manutenzione. Lavoriamo a Valencia città e nella sua area metropolitana, con canone mensile fisso o commissione sugli incassi."
+  },
+  "how": {
+   "title": "Come funziona",
+   "subtitle": "Dal primo contatto alla prima prenotazione, in quattro passaggi",
+   "steps": [
+    {
+     "title": "Raccontaci il tuo immobile",
+     "text": "Compila il modulo o chiamaci e dicci dove si trova e com'è."
+    },
+    {
+     "title": "Ti facciamo una proposta",
+     "text": "Visitiamo l'immobile, stimiamo quanto può rendere e scegli canone fisso o commissione."
+    },
+    {
+     "title": "Prepariamo l'annuncio",
+     "text": "Foto, descrizione, prezzi e pubblicazione su Airbnb, Booking e altre piattaforme."
+    },
+    {
+     "title": "Noi gestiamo, tu incassi",
+     "text": "Prenotazioni, ospiti, pulizie e manutenzione, con un riepilogo periodico di entrate e spese."
+    }
+   ]
+  },
+  "notFound": {
+   "title": "Pagina non trovata",
+   "text": "La pagina che cerchi non esiste o ha cambiato indirizzo.",
+   "button": "Vai alla home"
   }
  },
  "de": {
@@ -983,7 +1181,8 @@
    "benefits": "Vorteile",
    "contact": "Kontakt",
    "changeLanguage": "Sprache ändern",
-   "faq": "FAQ"
+   "faq": "FAQ",
+   "how": "So funktioniert's"
   },
   "hero": {
    "main": "Ihre Immobilie, unsere Verwaltung",
@@ -1106,8 +1305,8 @@
   },
   "langName": "Deutsch",
   "meta": {
-   "title": "RiusHost · Verwaltung von Ferienwohnungen in Valencia",
-   "description": "Wir betreuen Ihre Ferienwohnung in Valencia von A bis Z: Inserate auf Airbnb und Booking, Reinigung, Check-in, Buchungen, Preise und Wartung."
+   "title": "Ferienwohnung in Valencia (Spanien) verwalten lassen | RiusHost",
+   "description": "Familienunternehmen für die Rundum-Verwaltung von Ferienwohnungen in Valencia: Inserate auf Airbnb und Booking, Preise, Buchungen, Check-in, Reinigung und Wartung. Pauschale oder Provision."
   },
   "faq": {
    "title": "Häufige Fragen",
@@ -1138,6 +1337,38 @@
      "a": "Wir senden Ihnen regelmäßig eine Übersicht über Buchungen, Einnahmen und Ausgaben, und Sie können uns jederzeit fragen."
     }
    ]
+  },
+  "heroAlt": "Luftaufnahme von Valencia am Mittelmeer",
+  "about": {
+   "title": "Über RiusHost",
+   "text": "RiusHost ist ein Familienunternehmen aus Valencia (Spanien), das Ferienwohnungen im Auftrag ihrer Eigentümer verwaltet. Wir übernehmen den gesamten Vermietungsablauf: Inserate auf Airbnb, Booking und weiteren Plattformen, Preise, Buchungen, Gästebetreuung, Check-in, Reinigung und Wartung. Wir sind in der Stadt Valencia und im Großraum tätig, gegen eine feste Monatspauschale oder eine Provision auf die Einnahmen."
+  },
+  "how": {
+   "title": "So funktioniert's",
+   "subtitle": "Vom ersten Kontakt bis zur ersten Buchung in vier Schritten",
+   "steps": [
+    {
+     "title": "Erzählen Sie uns von Ihrer Wohnung",
+     "text": "Füllen Sie das Formular aus oder rufen Sie uns an und sagen Sie uns, wo sie liegt und wie sie ist."
+    },
+    {
+     "title": "Wir machen Ihnen ein Angebot",
+     "text": "Wir besichtigen die Wohnung, schätzen die möglichen Einnahmen und Sie wählen Pauschale oder Provision."
+    },
+    {
+     "title": "Wir erstellen das Inserat",
+     "text": "Fotos, Beschreibung, Preise und Veröffentlichung auf Airbnb, Booking und weiteren Plattformen."
+    },
+    {
+     "title": "Wir verwalten, Sie kassieren",
+     "text": "Buchungen, Gäste, Reinigung und Wartung, mit einer regelmäßigen Übersicht über Einnahmen und Ausgaben."
+    }
+   ]
+  },
+  "notFound": {
+   "title": "Seite nicht gefunden",
+   "text": "Die gesuchte Seite existiert nicht oder hat eine neue Adresse.",
+   "button": "Zur Startseite"
   }
  }
 }
