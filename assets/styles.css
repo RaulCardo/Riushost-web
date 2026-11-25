@@ -141,3 +141,16 @@ h2.mt { margin-top: 88px; }
 .legal h2 { text-align: left; font-size: 1.25rem; margin: 32px 0 8px; }
 .legal .small { color: var(--muted); font-size: .9rem; }
 .legal-page .section { padding-top: 40px; }
+
+/* Cómo funciona */
+.steps { list-style: none; counter-reset: paso; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.steps li { counter-increment: paso; position: relative; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 24px 24px; }
+.steps li::before { content: counter(paso); display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; margin-bottom: 14px; color: #fff; font-weight: 800; background: linear-gradient(135deg, var(--brand), var(--brand-2)); }
+.steps h3 { margin: 0 0 6px; font-size: 1.08rem; }
+.steps p { margin: 0; color: var(--muted); }
+
+/* Sobre RiusHost */
+.about p { font-size: 1.1rem; color: var(--muted); text-align: center; margin: 0; }
+
+@media (max-width: 960px) { .steps { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 720px) { .steps { grid-template-columns: 1fr; } }

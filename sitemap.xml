@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://riushost.com/</loc>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
@@ -12,6 +13,7 @@
   </url>
   <url>
     <loc>https://riushost.com/val/</loc>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
@@ -22,6 +24,7 @@
   </url>
   <url>
     <loc>https://riushost.com/en/</loc>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
@@ -32,6 +35,7 @@
   </url>
   <url>
     <loc>https://riushost.com/fr/</loc>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
@@ -42,6 +46,7 @@
   </url>
   <url>
     <loc>https://riushost.com/pt/</loc>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
@@ -52,6 +57,7 @@
   </url>
   <url>
     <loc>https://riushost.com/it/</loc>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
@@ -62,6 +68,7 @@
   </url>
   <url>
     <loc>https://riushost.com/de/</loc>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://riushost.com/" />
     <xhtml:link rel="alternate" hreflang="ca" href="https://riushost.com/val/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riushost.com/en/" />
@@ -72,11 +79,14 @@
   </url>
   <url>
     <loc>https://riushost.com/aviso-legal/</loc>
+    <lastmod>2026-11-25</lastmod>
   </url>
   <url>
     <loc>https://riushost.com/privacidad/</loc>
+    <lastmod>2026-11-25</lastmod>
   </url>
   <url>
     <loc>https://riushost.com/cookies/</loc>
+    <lastmod>2026-11-25</lastmod>
   </url>
 </urlset>

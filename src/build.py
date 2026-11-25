@@ -6,6 +6,7 @@ Lee src/i18n.json (textos de cada idioma) y src/site.json (datos de contacto y l
 y escribe los HTML en la raíz del repositorio: /, /val/, /en/, /fr/, /pt/, /it/, /de/,
 /aviso-legal/, /privacidad/, /cookies/ y sitemap.xml.
 """
+import datetime
 import json
 import os
 from html import escape as esc
@@ -18,6 +19,8 @@ S = json.load(open(os.path.join(SRC, "site.json"), encoding="utf-8"))
 LANGS = list(T.keys())  # el primero (es) va en la raíz
 HTML_LANG = {"es": "es", "val": "ca-ES-valencia", "en": "en", "fr": "fr", "pt": "pt", "it": "it", "de": "de"}
 HREFLANG = {"es": "es", "val": "ca", "en": "en", "fr": "fr", "pt": "pt", "it": "it", "de": "de"}
+OG_LOCALE = {"es": "es_ES", "val": "ca_ES", "en": "en_GB", "fr": "fr_FR", "pt": "pt_PT", "it": "it_IT", "de": "de_DE"}
+TODAY = datetime.date.today().isoformat()
 LANG_SHORT = {"es": "ES", "val": "VAL", "en": "EN", "fr": "FR", "pt": "PT", "it": "IT", "de": "DE"}
 
 MUNICIPIOS = ["Valencia", "Alaquàs", "Alboraya", "Aldaia", "Alfafar", "Algemesí", "Almussafes", "Alzira",
@@ -68,7 +71,13 @@ def head(lang, title, description, canonical, alternates=True, noindex=False):
   <meta property="og:title" content="{esc(title)}" />
   <meta property="og:description" content="{esc(description)}" />
   <meta property="og:url" content="{S['domain']}{canonical}" />
-  <meta property="og:image" content="{S['domain']}/assets/hero.jpg" />
+  <meta property="og:site_name" content="RiusHost" />
+  <meta property="og:locale" content="{OG_LOCALE[lang]}" />
+  <meta property="og:image" content="{S['domain']}/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#0f172a" />
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
   <link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="/assets/styles.css" />
@@ -91,7 +100,7 @@ def topbar(lang, home, solid=False, nav=True):
     if nav:
         links = f"""    <nav class="nav" id="nav" aria-label="Menu">
       <a href="{home}#servicios">{esc(t['header']['services'])}</a>
-      <a href="{home}#beneficios">{esc(t['header']['benefits'])}</a>
+      <a href="{home}#como-funciona">{esc(t['header']['how'])}</a>
       <a href="{home}#faq">{esc(t['header']['faq'])}</a>
       <a href="{home}#contacto">{esc(t['header']['contact'])}</a>
       <div class="nav-langs">{"".join(f'<a href="{path_for(l)}" hreflang="{HREFLANG[l]}" lang="{HTML_LANG[l]}"' + (' aria-current="true"' if l == lang else '') + f'>{LANG_SHORT[l]}</a>' for l in LANGS)}</div>
@@ -154,13 +163,48 @@ def home_page(lang):
         "mainEntity": [{"@type": "Question", "name": q["q"],
                         "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in t["faq"]["items"]]
     }, ensure_ascii=False)
+    org_id = S["domain"] + "/#empresa"
     biz_ld = json.dumps({
-        "@context": "https://schema.org", "@type": "LocalBusiness", "name": "RiusHost",
-        "url": S["domain"] + "/", "email": S["email"], "telephone": S["phoneHref"],
-        "image": S["domain"] + "/assets/hero.jpg", "areaServed": "València",
-        "address": {"@type": "PostalAddress", "addressLocality": "València", "addressCountry": "ES"},
-        "description": t["meta"]["description"]
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "ProfessionalService", "@id": org_id, "name": "RiusHost",
+                "url": S["domain"] + "/", "email": S["email"], "telephone": S["phoneHref"],
+                "logo": S["domain"] + "/assets/logo.png", "image": S["domain"] + "/assets/og-image.jpg",
+                "description": t["about"]["text"],
+                "slogan": t["hero"]["main"],
+                "founder": {"@type": "Person", "name": S["titular"]},
+                "address": {"@type": "PostalAddress", "addressLocality": "València", "postalCode": "46006",
+                            "addressRegion": "Comunitat Valenciana", "addressCountry": "ES"},
+                "areaServed": [{"@type": "City", "name": m if m != "Valencia" else "València"} for m in MUNICIPIOS],
+                "availableLanguage": [T[l]["langName"] for l in LANGS],
+                "knowsAbout": ["Viviendas de uso turístico", "Airbnb", "Booking.com", "Alquiler vacacional",
+                               "Registro de Turismo de la Comunitat Valenciana"],
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog", "name": t["services"]["title"],
+                    "itemListElement": [{"@type": "Offer", "itemOffered": {
+                        "@type": "Service", "name": it["title"], "description": it["description"],
+                        "areaServed": "València"}} for it in t["services"]["items"]]
+                }
+            },
+            {
+                "@type": "WebSite", "@id": S["domain"] + "/#web", "url": S["domain"] + "/", "name": "RiusHost",
+                "publisher": {"@id": org_id}, "inLanguage": [HTML_LANG[l] for l in LANGS]
+            },
+            {
+                "@type": "WebPage", "@id": S["domain"] + home + "#pagina", "url": S["domain"] + home,
+                "name": t["meta"]["title"], "description": t["meta"]["description"],
+                "inLanguage": HTML_LANG[lang], "isPartOf": {"@id": S["domain"] + "/#web"},
+                "about": {"@id": org_id}, "dateModified": TODAY,
+                "primaryImageOfPage": S["domain"] + "/assets/og-image.jpg"
+            }
+        ]
     }, ensure_ascii=False)
+    steps = "\n".join(
+        f"""          <li>
+            <h3>{esc(st['title'])}</h3>
+            <p>{esc(st['text'])}</p>
+          </li>""" for st in t["how"]["steps"])
     prefix_default = DEFAULT_PREFIX.get(lang, "+34")
     prefixes = "".join(
         f'<option value="{v}"{" selected" if v == prefix_default else ""}>{esc(n)}</option>' for v, n in PREFIXES)
@@ -173,11 +217,15 @@ def home_page(lang):
 
     return head(lang, t["meta"]["title"], t["meta"]["description"], home) + f"""  <script type="application/ld+json">{biz_ld}</script>
   <script type="application/ld+json">{faq_ld}</script>
+  <link rel="preload" as="image" type="image/webp" imagesrcset="/assets/hero-800.webp 800w, /assets/hero-1280.webp 1280w, /assets/hero-1600.webp 1600w" imagesizes="100vw" fetchpriority="high" />
 </head>
 <body>
 {topbar(lang, home)}
   <section class="hero">
-    <img class="hero-img" src="/assets/hero.jpg" alt="" onerror="this.remove()" />
+    <picture>
+      <source type="image/webp" srcset="/assets/hero-800.webp 800w, /assets/hero-1280.webp 1280w, /assets/hero-1600.webp 1600w" sizes="100vw" />
+      <img class="hero-img" src="/assets/hero-1280.jpg" width="1600" height="1198" alt="{esc(t['heroAlt'])}" fetchpriority="high" decoding="async" onerror="this.remove()" />
+    </picture>
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <h1>{esc(t['hero']['main'])}</h1>
@@ -197,7 +245,17 @@ def home_page(lang):
       </div>
     </section>
 
-    <section class="section alt" id="beneficios">
+    <section class="section alt" id="como-funciona">
+      <div class="wrap">
+        <h2>{esc(t['how']['title'])}</h2>
+        <p class="lead">{esc(t['how']['subtitle'])}</p>
+        <ol class="steps">
+{steps}
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="beneficios">
       <div class="wrap">
         <h2>{esc(t['benefits']['title'])}</h2>
         <p class="lead">{esc(t['benefits']['subtitle'])}</p>
@@ -222,6 +280,13 @@ def home_page(lang):
             <p>{esc(t['benefits']['pricing']['percentage']['description'])}</p>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="sobre-riushost">
+      <div class="wrap narrow about">
+        <h2>{esc(t['about']['title'])}</h2>
+        <p>{esc(t['about']['text'])}</p>
       </div>
     </section>
 
@@ -345,10 +410,73 @@ def sitemap():
             alts = "".join(
                 f'\n    <xhtml:link rel="alternate" hreflang="{HREFLANG[l]}" href="{S["domain"]}{path_for(l)}" />'
                 for l in LANGS)
-        items.append(f"  <url>\n    <loc>{S['domain']}{u}</loc>{alts}\n  </url>")
+        items.append(f"  <url>\n    <loc>{S['domain']}{u}</loc>\n    <lastmod>{TODAY}</lastmod>{alts}\n  </url>")
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
             + "\n".join(items) + "\n</urlset>\n")
+
+
+def not_found_page():
+    lang = LANGS[0]
+    links = " · ".join(f'<a href="{path_for(l)}" lang="{HTML_LANG[l]}">{esc(T[l]["notFound"]["button"])}</a>'
+                       for l in LANGS)
+    t = T[lang]["notFound"]
+    return head(lang, f"{t['title']} · RiusHost", t["text"], "/404.html", alternates=False, noindex=True) + f"""</head>
+<body class="legal-page">
+{topbar(lang, '/', solid=True, nav=False)}
+  <main class="section">
+    <div class="wrap narrow legal" style="text-align:center">
+      <h1>{esc(t['title'])}</h1>
+      <p>{esc(t['text'])}</p>
+      <p><a class="btn" href="/">{esc(t['button'])}</a></p>
+      <p class="small">{links}</p>
+    </div>
+  </main>
+{footer(lang)}
+</body>
+</html>
+"""
+
+
+def llms_txt():
+    es, en = T["es"], T["en"]
+    lines = [
+        "# RiusHost",
+        "",
+        f"> {en['about']['text']}",
+        "",
+        f"- Website: {S['domain']}/ (Spanish), with versions in "
+        + ", ".join(f"{T[l]['langName']} ({S['domain']}{path_for(l)})" for l in LANGS[1:]),
+        f"- Email: {S['email']}",
+        f"- Phone: {S['phone']}",
+        "- Location: València, Comunitat Valenciana, Spain (postal code 46006)",
+        "- Service area: València city and its metropolitan area: " + ", ".join(m for m in MUNICIPIOS if m != "Valencia"),
+        "- Billing: fixed monthly fee or a percentage of the rental income, chosen by the owner",
+        "",
+        "## Services",
+        "",
+    ]
+    lines += [f"- {it['title']}: {it['description']}" for it in en["services"]["items"]]
+    lines += ["", "## How it works", ""]
+    lines += [f"{i}. {st['title']}: {st['text']}" for i, st in enumerate(en["how"]["steps"], 1)]
+    lines += ["", "## FAQ", ""]
+    lines += [f"- {q['q']} {q['a']}" for q in en["faq"]["items"]]
+    lines += ["", "## Pages", ""]
+    lines += [f"- [{T[l]['langName']}]({S['domain']}{path_for(l)}): {T[l]['meta']['description']}" for l in LANGS]
+    lines += [f"- [Aviso legal]({S['domain']}/aviso-legal/)", f"- [Política de privacidad]({S['domain']}/privacidad/)"]
+    lines += ["", "## Resumen en castellano", "", es["about"]["text"], ""]
+    return "\n".join(lines)
+
+
+def robots_txt():
+    bots = ["Googlebot", "Bingbot", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot",
+            "Claude-User", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended",
+            "DuckAssistBot", "CCBot"]
+    out = ["# Buscadores y asistentes de IA son bienvenidos.", ""]
+    for b in bots:
+        out += [f"User-agent: {b}", "Allow: /", ""]
+    out += ["User-agent: *", "Allow: /", "", f"Sitemap: {S['domain']}/sitemap.xml", ""]
+    return "\n".join(out)
 
 
 def main():
@@ -359,7 +487,10 @@ def main():
                         ("cookies", "Política de cookies")]:
         write(f"{slug}/index.html", legal_page(slug, title))
     write("sitemap.xml", sitemap())
-    print("OK:", ", ".join(path_for(l) for l in LANGS), "+ páginas legales + sitemap.xml")
+    write("404.html", not_found_page())
+    write("llms.txt", llms_txt())
+    write("robots.txt", robots_txt())
+    print("OK:", ", ".join(path_for(l) for l in LANGS), "+ legales, 404, sitemap.xml, llms.txt, robots.txt")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,51 @@
+# RiusHost
+
+> RiusHost is a family-run company in Valencia, Spain, that manages holiday rental properties on behalf of their owners. We handle the whole rental cycle: listings on Airbnb, Booking and other platforms, pricing, bookings, guest communication, check-in, cleaning and maintenance. We work in Valencia city and the surrounding metropolitan area, for a fixed monthly fee or a commission on income.
+
+- Website: https://riushost.com/ (Spanish), with versions in Valencià (https://riushost.com/val/), English (https://riushost.com/en/), Français (https://riushost.com/fr/), Português (https://riushost.com/pt/), Italiano (https://riushost.com/it/), Deutsch (https://riushost.com/de/)
+- Email: info@riushost.com
+- Phone: +34 660 239 094
+- Location: València, Comunitat Valenciana, Spain (postal code 46006)
+- Service area: València city and its metropolitan area: Alaquàs, Alboraya, Aldaia, Alfafar, Algemesí, Almussafes, Alzira, Benaguasil, Benetússer, Bétera, Burjassot, Carlet, Catarroja, Cheste, Chiva, Cullera, El Puig de Santa Maria, Gandia, Godella, L'Alcúdia, La Pobla de Vallbona, Llíria, Manises, Massamagrell, Meliana, Mislata, Moncada, Museros, Oliva, Ontinyent, Paiporta, Paterna, Picanya, Picassent, Puçol, Quart de Poblet, Requena, Riba-roja de Túria, Rocafort, Sagunto/Sagunt, Sedaví, Silla, Sueca, Tavernes de la Valldigna, Torís, Torrent, Utiel, Vilamarxant, Xàtiva, Xirivella
+- Billing: fixed monthly fee or a percentage of the rental income, chosen by the owner
+
+## Services
+
+- Platform Listing: We create and optimize your listings on Airbnb, Booking, and other leading platforms with professional photos and attractive descriptions.
+- Professional Cleaning: Thorough cleaning service between guests. Your property always impeccable and ready to welcome.
+- Check-in & Check-out: We manage guest arrivals and departures, key handover, and personalized attention for a perfect experience.
+- Booking Management: We coordinate calendars, dynamic pricing, and guest communication. We maximize your occupancy and profits.
+- Income Optimization: We implement advanced web positioning techniques and dynamic price optimization to maximize your property's profitability.
+- Maintenance and Technical Issue Management: We handle minor repairs and resolve any technical issues that may arise, ensuring the functionality of your property.
+
+## How it works
+
+1. Tell us about your property: Fill in the form or call us and tell us where it is and what it is like.
+2. We make you an offer: We visit the property, estimate what it can earn, and you choose a fixed fee or commission.
+3. We prepare the listing: Photos, description, pricing and publication on Airbnb, Booking and other platforms.
+4. We manage, you get paid: Bookings, guests, cleaning and maintenance, with a regular summary of income and expenses.
+
+## FAQ
+
+- Which areas do you cover? Valencia city and the towns in its metropolitan area and province. If your property is not on the list in the form, write to us anyway.
+- Do I need a licence to rent my property to tourists? Yes. In the Valencian Community the property must be registered in the Tourism Register and comply with its town's planning rules. We guide you through the steps and paperwork.
+- Can I still use my property? Yes. We block the dates you want to keep for yourself or your family in the calendar. Just let us know in advance.
+- Who pays for cleaning? The cleaning fee is usually paid by the guest when booking. We coordinate the cleaning after every check-out.
+- What happens if a guest causes damage? We inspect the property after every stay and, if there is damage, we handle the claim with the booking platform. We also recommend home insurance that covers holiday letting.
+- How do I know how much my property has earned? We send you a regular summary of bookings, income and expenses, and you can ask us at any time.
+
+## Pages
+
+- [Español](https://riushost.com/): Empresa familiar de gestión integral de alquiler vacacional en València: anuncios en Airbnb y Booking, precios, reservas, check-in, limpieza y mantenimiento. Cuota fija o comisión.
+- [Valencià](https://riushost.com/val/): Empresa familiar de gestió integral de lloguer turístic a València: anuncis a Airbnb i Booking, preus, reserves, check-in, neteja i manteniment. Quota fixa o comissió.
+- [English](https://riushost.com/en/): Family-run, full-service holiday rental management in Valencia: Airbnb and Booking listings, pricing, bookings, check-in, cleaning and maintenance. Fixed fee or commission.
+- [Français](https://riushost.com/fr/): Entreprise familiale de gestion complète de locations saisonnières à Valence : annonces Airbnb et Booking, prix, réservations, check-in, ménage et entretien. Forfait ou commission.
+- [Português](https://riushost.com/pt/): Empresa familiar de gestão completa de arrendamento de férias em Valência: anúncios no Airbnb e Booking, preços, reservas, check-in, limpeza e manutenção. Mensalidade fixa ou comissão.
+- [Italiano](https://riushost.com/it/): Azienda familiare di gestione completa degli affitti turistici a Valencia: annunci su Airbnb e Booking, prezzi, prenotazioni, check-in, pulizie e manutenzione. Canone fisso o commissione.
+- [Deutsch](https://riushost.com/de/): Familienunternehmen für die Rundum-Verwaltung von Ferienwohnungen in Valencia: Inserate auf Airbnb und Booking, Preise, Buchungen, Check-in, Reinigung und Wartung. Pauschale oder Provision.
+- [Aviso legal](https://riushost.com/aviso-legal/)
+- [Política de privacidad](https://riushost.com/privacidad/)
+
+## Resumen en castellano
+
+RiusHost es una empresa familiar de València que gestiona viviendas de uso turístico en nombre de sus propietarios. Nos ocupamos de todo el ciclo del alquiler: anuncios en Airbnb, Booking y otras plataformas, precios, reservas, atención a los huéspedes, check-in, limpieza y mantenimiento. Trabajamos en València ciudad y en los municipios de su área metropolitana, con cuota mensual fija o comisión sobre ingresos.
